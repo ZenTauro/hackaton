@@ -19,10 +19,10 @@ int main() {
   if (fd == NULL) {
     fd = fopen(tomatoFile, "a");
     int n = ask_Data(fd);
-    while (n == 0) {
-      printf("\nUps... Parece que algo ha salido mal.\n");
-      n = ask_Data(fd);
-    }
+    // while (n == 0) {
+      // printf("\nUps... Parece que algo ha salido mal.\n");
+      // n = ask_Data(fd);
+      // }
   }
 
   int resp;
